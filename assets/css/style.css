@@ -1,0 +1,126 @@
+/********************
+GENERAL
+********************/
+
+body {
+    font-size: .75em;
+}
+
+/* Title */
+#title {
+    padding-top: 2.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+#first-name {
+    font-family: 'Quattrocento', serif;
+    /* font-family: 'Sanchez', serif; */
+}
+
+#last-name {
+    font-family: 'Suez One', serif;
+    /* font-weight: bold; */
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+
+/********************
+NAV
+********************/
+#navbarsExample11 {
+    padding-bottom: 10%;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
+
+/********************
+GALLERY
+********************/
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.caption {
+    margin-top: 3%;
+    text-align: center;
+}
+
+#app-name 
+
+#description {
+    /* text-align: center; */
+    color: #000;
+    font-size: 5em;
+    /* padding-top: 3%; */
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: .5em;
+    padding-bottom: 10%;
+}
