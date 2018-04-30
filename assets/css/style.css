@@ -76,6 +76,22 @@ NAV
 
 
 /********************
+FOOTER
+********************/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    padding-top: 20px;
+    font-size: .75em;
+}
+
+
+
+/********************
 PAGE: PORTFOLIO
 ********************/
 .gallery-title
