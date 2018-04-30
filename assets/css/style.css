@@ -3,7 +3,14 @@ GENERAL
 ********************/
 
 body {
-    font-size: .75em;
+    font-size: .8em;
+    /* font-family: 'Lato', sans-serif;
+    font-weight: 700; */
+
+
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-weight: 300; */
+
 }
 
 /* Title */
@@ -11,17 +18,24 @@ body {
     padding-top: 2.5%;
     padding-bottom: 1.5%;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 #first-name {
-    font-family: 'Quattrocento', serif;
+    /* font-family: 'Quattrocento', serif; */
     /* font-family: 'Sanchez', serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
 }
 
 #last-name {
-    font-family: 'Suez One', serif;
-    /* font-weight: bold; */
+    /* font-family: 'Suez One', serif; */
+    /* font-family: 'Quicksand', sans-serif;
+    font-weight: bold; */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
 }
 
 a {
@@ -53,10 +67,16 @@ NAV
     background-color: #fff;
 }
 
+.burger {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 /********************
-GALLERY
+PAGE: PORTFOLIO
 ********************/
 .gallery-title
 {
@@ -108,6 +128,11 @@ GALLERY
 .caption {
     margin-top: 3%;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15%;
+    
+
 }
 
 #app-name 
@@ -121,6 +146,20 @@ GALLERY
 }
 
 p {
-    font-size: .5em;
+    font-size: 1em;
     padding-bottom: 10%;
+}
+
+
+
+/********************
+PAGE: ABOUT
+********************/
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
