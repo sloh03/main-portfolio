@@ -40,9 +40,6 @@ img { max-width: 100%; }
 	line-height: 32px;
 }
 
-.colored-text { color: #9b59b6; }
-
-
 ::-moz-selection { background: #9b59b6; color: #fff; text-shadow: none; }
 ::selection { background: #9b59b6; color: #fff; text-shadow: none; }
 
