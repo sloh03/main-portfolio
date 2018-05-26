@@ -5,7 +5,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #888;
+    /* color: #888; */
+    color: 	rgb(107, 107, 107);
     line-height: 30px;
     text-align: center;
 }
@@ -17,7 +18,8 @@ h1, h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 38px;
     font-weight: 300;
-    color: #555;
+    /* color: #555; */
+    color: #444d56;
     line-height: 50px;
 }
 
@@ -25,7 +27,8 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
     font-weight: 300;
-    color: #555;
+    /* color: #555; */
+    color: #444d56;
     line-height: 30px;
 }
 
@@ -675,6 +678,10 @@ footer {
     background: #202020;
 	color: #aaa;
 	text-align: left;
+}
+
+.footer-center {
+    text-align: center;
 }
 
 .footer-left a { color: #ddd; border-bottom: 1px dashed #ddd; }
