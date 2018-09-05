@@ -5,7 +5,8 @@ GENERAL
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 350;
+    /* font-weight: 350; */
+    font-weight: 400;
     /* color: #888; */
     color: 	rgb(107, 107, 107);
     line-height: 30px;
@@ -223,8 +224,9 @@ SECTION: ABOUT
 .about-box-text a:hover, .about-box-text a:focus { border: 0; }
 
 .description {
-    font-weight: bold;
-    /* font-style: italic; */
+    /* font-weight: bold; */
+    font-style: italic;
+    font-weight: 400;
 }
 
 
