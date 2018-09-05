@@ -222,6 +222,11 @@ SECTION: ABOUT
 .about-box-text a { border-bottom: 1px dashed #9b59b6; }
 .about-box-text a:hover, .about-box-text a:focus { border: 0; }
 
+.description {
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
 
 
 /********************
